@@ -1,0 +1,11 @@
+package stringex.practice;
+
+public class test1 {
+    public static void main(String[] args) {
+        String str = "Aman";
+        String replaceFirst = str.replaceFirst("A", "super");
+        System.out.println("replaceFirst: " + replaceFirst);
+
+    }
+
+}
