@@ -53,13 +53,13 @@ class 개인정보 {
 public class test2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        // A01-이름:홍길동-전화번호:0102222-성별:남-나이: 20
         String data = sc.nextLine();
 
         String[] tokens = data.split("-|:");
 
         if (tokens[0].equals("A01")) {
-            for (int i = 1; i < 5; i++) {
+            for (int i = 1; i < tokens.length; i++) {
                 // System.out.println(tokens[i]);
             }
         } else {
