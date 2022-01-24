@@ -9,6 +9,7 @@ public class ArrayTest1 {
         Random r = new Random();
         // 1. ArrayList만들기
         ArrayList<Integer> lottos = new ArrayList<Integer>();
+        lottos.add();
         lottos.add(2);
         lottos.add(8);
         lottos.add(26);
