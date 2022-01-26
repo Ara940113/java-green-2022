@@ -7,7 +7,7 @@ public class 커피주문 {
         메뉴판 choose = new 메뉴판();
         커피 coffee = new 커피();
 
-        costomer.order(baristar, choose, coffee);
+        // costomer.order(baristar, choose, coffee);
     }
 
 }
