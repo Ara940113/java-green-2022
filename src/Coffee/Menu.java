@@ -12,6 +12,11 @@ public class Menu {
 
 	// 2번
 	public MenuItem choose(String menuName) {
+		for (MenuItem item : items) {
+			if (item.getName().equals(menuName)) {
+				return item;
+			}
+		}
 		return null;
 	}
 }

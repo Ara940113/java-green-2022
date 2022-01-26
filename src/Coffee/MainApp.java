@@ -23,7 +23,7 @@ public class MainApp {
 		Menu menu = new Menu(list);
 
 		// 1. 커피를 주문하라!!
-		// customer.order("아메리카노", menu, barista);
+		customer.order("아메리카노", menu, barista);
 	}
 
 }
