@@ -1,22 +1,22 @@
-package coffeemaker;
+// package coffeemaker;
 
-import java.util.List;
+// import java.util.List;
 
-public class Menu {
+// public class Menu {
 
-    private List<MenuItem> items;
+// private List<MenuItem> items;
 
-    public Menu(List<MenuItem> items) {
-        this.items = items;
-    }
+// public Menu(List<MenuItem> items) {
+// this.items = items;
+// }
 
-    public MenuItem choose(String menuName) {
-        for (MenuItem item : items) {
-            if (item.getName().equals(menuName)) {
-                return item;
-            }
-        }
-        return null;
-    }
+// public MenuItem choose(String menuName) {
+// for (MenuItem item : items) {
+// if (item.getName().equals(menuName)) {
+// return item;
+// }
+// }
+// return null;
+// }
 
-}
+// }
